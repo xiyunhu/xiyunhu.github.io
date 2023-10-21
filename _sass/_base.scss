@@ -673,7 +673,7 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: var(--global-venue-color);
           padding-left: 1rem;
           padding-right: 1rem;
 
@@ -707,8 +707,9 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+          font-weight: bold;
           font-style: normal;
+          color: var(--global-theme-color);
         }
 
         >span.more-authors {
@@ -732,7 +733,7 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
-
+          text-transform: none;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);

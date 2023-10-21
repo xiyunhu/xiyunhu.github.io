@@ -1,3 +1,36 @@
+"He": 
+  - firstname: ["Fengming", "F."]
+    url: https://www.fengminghe.com/
+
+
+"Shi":
+  - firstname: ["Jingyu", "J."]
+    url: https://jingyushi.me/
+
+"Qian":
+  - firstname: ["Xun", "X."]
+    url: https://www.xun-qian.com/
+
+"Ramani":
+  - firstname: ["Karthik", "K."]
+    url: https://engineering.purdue.edu/ME/People/ptProfile?resource_id=12331
+
+"Cao":
+  - firstname: ["Yuanzhi", "Y."]
+    url: https://www.yuanzhi-cao.com/
+
+"Wang":
+  - firstname: ["Tianyi", "T."]
+    url: https://www.linkedin.com/in/tianyi-wang-565a4387/
+
+"Huo":
+  - firstname: ["Ke", "K."]
+    url: https://www.linkedin.com/in/kehuo/
+
+"Ipsita":
+  - firstname: ["Ananya", "A."]
+    url: https://engineering.purdue.edu/cdesign/wp/author/ananya/
+
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
