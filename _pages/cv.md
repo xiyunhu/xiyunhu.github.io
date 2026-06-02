@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: default
 permalink: /cv/
 title: cv
 nav: true
@@ -7,7 +7,13 @@ nav_order: 4
 cv_pdf: /assets/pdf/Xiyun%20CV.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
 description: Ph.D. candidate in Mechanical Engineering working at the intersection of AR/XR, machine learning, computer vision, and human-centered authoring tools.
-_styles: |
+toc:
+  sidebar: left
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/al-folio-cv.css' | relative_url }}">
+
+<style type="text/css">
   .cv .list-group-item > .row {
     align-items: flex-start;
   }
@@ -72,6 +78,21 @@ _styles: |
       min-width: 5.75rem !important;
     }
   }
-toc:
-  sidebar: left
----
+</style>
+
+{% assign cv_feature_enabled = site.al_folio.features.cv.enabled | default: true %}
+
+{% if site.plugins contains 'al_folio_cv' and cv_feature_enabled %}
+{% al_folio_cv_render %}
+{% else %}
+
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-description">CV rendering is unavailable.</p>
+    </header>
+    <article>
+      <p>Enable the <code>al_folio_cv</code> plugin and set <code>al_folio.features.cv.enabled: true</code> to render this page.</p>
+    </article>
+  </div>
+{% endif %}

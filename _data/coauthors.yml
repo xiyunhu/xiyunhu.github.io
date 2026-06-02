@@ -1,7 +1,6 @@
-"He": 
+"He":
   - firstname: ["Fengming", "F."]
     url: https://www.fengminghe.com/
-
 
 "Shi":
   - firstname: ["Jingyu", "J."]
@@ -43,7 +42,7 @@
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
