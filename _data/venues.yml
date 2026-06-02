@@ -7,6 +7,28 @@
 
 "CHI":
   url: https://dl.acm.org/conference/chi
+  color: "#2563eb"
+
+"CHI EA":
+  url: https://dl.acm.org/conference/chi
+  color: "#0e7490"
+
+"DIS":
+  url: https://dl.acm.org/conference/dis
+  color: "#be123c"
+
+"ISS":
+  url: https://dl.acm.org/conference/iss
+  color: "#c2410c"
+
+"JCISE":
+  url: https://asmedigitalcollection.asme.org/computingengineering
+  color: "#15803d"
 
 "UIST":
   url: https://dl.acm.org/conference/uist
+  color: "#7e22ce"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#475569"

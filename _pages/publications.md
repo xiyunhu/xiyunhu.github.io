@@ -6,9 +6,15 @@ description: "* denotes equal contribution and joint lead authorship."
 nav: true
 nav_order: 1
 ---
+
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography %}
 
 </div>

@@ -1,62 +1,140 @@
 {
   "basics": {
     "name": "Xiyun Hu",
-    "image": "",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "label": "Ph.D. Candidate in Mechanical Engineering",
+    "email": "davidhu2016@outlook.com",
+    "phone": "+1 (412) 377-3164",
+    "url": "https://xiyunhu.github.io",
+    "image": "assets/img/prof_pic.jpg",
+    "summary": "Ph.D. candidate in Mechanical Engineering with over four years of hands-on experience in machine learning and computer vision for augmented and mixed reality applications. My work develops AR/XR authoring tools, multimodal interaction systems, and learning/training interfaces that combine Python, PyTorch, OpenCV, Unity, and LLM-based workflows.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "585 Purdue Mall",
+      "postalCode": "47906",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": "California"
+      "region": "Indiana"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "davidhu2020",
+        "url": "https://www.linkedin.com/in/davidhu2020"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Xiyun Hu",
+        "url": "https://scholar.google.com/citations?user=ES8F-OMAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0001-9497-6925",
+        "url": "https://orcid.org/0000-0001-9497-6925"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Fujitsu Research of America",
+      "position": "Research Intern",
+      "location": "Pittsburgh, PA (remote)",
+      "startDate": "2025-09-01",
+      "endDate": "2026-04-30",
       "highlights": [
-        "Relativity"
+        "Surveyed state-of-the-art human motion synthesis and video generation literature to identify research gaps and define a new experimental direction.",
+        "Developed a 3D human motion generation pipeline that integrates image generation, video generation, and human mesh recovery to reconstruct temporally consistent 3D motion from text and 2D inputs.",
+        "Designed and prototyped a user interface for interactive control of the motion generation pipeline and evaluated usability and motion quality."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "institution": "Purdue University",
+      "area": "Mechanical Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2021-01-01",
+      "endDate": "2026-08-01",
+      "location": "West Lafayette, IN",
+      "highlights": ["Expected August 2026"]
+    },
+    {
+      "institution": "Purdue University",
+      "area": "Mechanical Engineering",
+      "studyType": "M.S.",
+      "startDate": "2019-08-01",
+      "endDate": "2020-12-31",
+      "location": "West Lafayette, IN"
+    },
+    {
+      "institution": "University of Pittsburgh",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2017-08-01",
+      "endDate": "2019-04-30",
+      "location": "Pittsburgh, PA"
+    },
+    {
+      "institution": "Sichuan University",
+      "area": "Mechanical Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2015-08-01",
+      "endDate": "2019-04-30",
+      "location": "Sichuan, China"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Paper Honorable Mention",
+      "date": "2026",
+      "awarder": "CHI 2026, CHI 2024, UIST 2021"
+    },
+    {
+      "title": "Special Recognition for Outstanding Review",
+      "date": "2025",
+      "awarder": "CHI 2025, DIS 2025, UIST 2025"
     }
   ],
   "certificates": [],
-  "publications": [],
-  "skills": [],
+  "publications": [
+    {
+      "title": "ARify: Leveraging Narrated Instructional Videos to Create Augmented Reality Tutorials for Procedural Tasks",
+      "publisher": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+      "releaseDate": "2026-04-01",
+      "url": "https://doi.org/10.1145/3772318.3790715"
+    },
+    {
+      "title": "agentAR: Creating Augmented Reality Applications with Tool-Augmented LLM-based Autonomous Agents",
+      "publisher": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology",
+      "releaseDate": "2025-09-01",
+      "url": "https://doi.org/10.1145/3746059.3747676"
+    },
+    {
+      "title": "GesPrompt: Leveraging Co-Speech Gestures to Augment LLM-Based Interaction in Virtual Reality",
+      "publisher": "Proceedings of the 2025 ACM Designing Interactive Systems Conference",
+      "releaseDate": "2025-07-01",
+      "url": "https://doi.org/10.1145/3715336.3735769"
+    },
+    {
+      "title": "Ubi Edge: Authoring Edge-Based Opportunistic Tangible User Interfaces in Augmented Reality",
+      "publisher": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+      "releaseDate": "2023-04-01",
+      "url": "https://doi.org/10.1145/3544548.3580704"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C#", "Git", "Linux", "Arduino"]
+    },
+    {
+      "name": "ML/DL Platforms and Libraries",
+      "keywords": ["PyTorch", "TensorFlow", "OpenCV", "Keras", "Scikit-learn", "Transformers"]
+    },
+    {
+      "name": "AR/VR and Graphics Tools",
+      "keywords": ["Unity3D", "Blender", "MeshLab", "PTC Creo", "Oculus", "HoloLens"]
+    }
+  ],
   "languages": [
     {
       "language": "Chinese",
@@ -67,7 +145,37 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research",
+      "keywords": ["Augmented Reality", "Mixed Reality", "Computer Vision", "Machine Learning", "Human-Computer Interaction"]
+    }
+  ],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "ARify",
+      "summary": "Semi-automatic AR authoring system that converts narrated instructional videos into spatially anchored AR tutorials.",
+      "highlights": [
+        "Integrated object detection, segmentation, pose estimation, hand tracking, and VLM-based task parsing.",
+        "Built a desktop authoring workflow for refining tutorial structures and spatial placement of AR guidance elements."
+      ]
+    },
+    {
+      "name": "GesPrompt",
+      "summary": "Multimodal XR interaction workflow that combines speech, gesture recognition, and LLM-based prompt tuning.",
+      "highlights": [
+        "Designed a co-speech gesture framework that extracts spatial parameters from gestures to clarify ambiguous speech commands.",
+        "Improved XR interaction accuracy by jointly processing gesture and speech inputs through an LLM agent."
+      ]
+    },
+    {
+      "name": "agentAR",
+      "summary": "Tool-augmented LLM agent that supports natural-language AR application creation.",
+      "highlights": [
+        "Built a machine-learning tool library for agent-based AR workflows.",
+        "Tested robustness by recreating existing AR applications and creating new applications with different ML algorithm combinations."
+      ]
+    }
+  ]
 }
