@@ -1,2 +1,75 @@
----
-{}
+metadata:
+  last_updated: '2026-06-05'
+papers:
+  ES8F-OMAAAAJ:0EnyYjriUFMC:
+    citations: 0
+    title: Towards Design Guidelines for Natural-Language-Based Human-Multi-Robot Collaboration in Domestic Environments
+    year: '2026'
+  ES8F-OMAAAAJ:2osOgNQ5qMEC:
+    citations: 24
+    title: 'ARnnotate: An augmented reality interface for collecting custom dataset of 3D hand-object interaction pose estimation'
+    year: '2022'
+  ES8F-OMAAAAJ:9yKSN-GCB0IC:
+    citations: 102
+    title: 'Scalar: Authoring semantically adaptive augmented reality experiences in virtual reality'
+    year: '2022'
+  ES8F-OMAAAAJ:IjCSPb-OGe4C:
+    citations: 72
+    title: 'ClassMeta: Designing Interactive Virtual Classmate to Promote VR Classroom Participation'
+    year: '2024'
+  ES8F-OMAAAAJ:LkGwnXOMwfcC:
+    citations: 0
+    title: 'Towards Natural Language Environment: Understanding Seamless Natural-Language-Based Human-Multi-Robot Interactions'
+    year: '2026'
+  ES8F-OMAAAAJ:Se3iqnhoufwC:
+    citations: 1
+    title: 'AmIWrite: Exploring Scalable One-on-One Handwriting-Based Tutoring for Mathematical Problem-Solving with an LLM-Powered AI Tutor'
+    year: '2026'
+  ES8F-OMAAAAJ:UebtZRa9Y70C:
+    citations: 1
+    title: 'JustShape: Exploring Co-Speech Gestures for Multimodal LLM-Powered 3D Parametric Modeling'
+    year: '2026'
+  ES8F-OMAAAAJ:W7OEmFMy1HYC:
+    citations: 24
+    title: 'avaTTAR: Table Tennis Stroke Training with Embodied and Detached Visualization in Augmented Reality'
+    year: '2024'
+  ES8F-OMAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Authoring edge-based opportunistic tangible user interfaces in augmented reality
+    year: '2024'
+  ES8F-OMAAAAJ:YsMSGLbcyi4C:
+    citations: 8
+    title: 'AdapTUI: Adaptation of Geometric-Feature-Based Tangible User Interfaces in Augmented Reality'
+    year: '2024'
+  ES8F-OMAAAAJ:_FxGoFyzp5QC:
+    citations: 19
+    title: 'agentAR: Creating Augmented Reality Applications with Tool-Augmented LLM-based Autonomous Agents'
+    year: '2025'
+  ES8F-OMAAAAJ:eQOLeE2rZwMC:
+    citations: 8
+    title: 'pARametric: Empowering In Situ Parametric Modeling in Augmented Reality for Personal Fabrication'
+    year: '2025'
+  ES8F-OMAAAAJ:hqOjcs7Dif8C:
+    citations: 1
+    title: 'ARify: Leveraging Narrated Instructional Videos to Create Augmented Reality Tutorials for Procedural Tasks'
+    year: '2026'
+  ES8F-OMAAAAJ:qjMakFHDy7sC:
+    citations: 45
+    title: 'Ubi Edge: Authoring Edge-Based Opportunistic Tangible User Interfaces in Augmented Reality'
+    year: '2023'
+  ES8F-OMAAAAJ:roLk4NBRz8UC:
+    citations: 1
+    title: 'AgentCoach: LLM-Based Adaptive Coaching Feedback for Motor Skill Learning'
+    year: '2026'
+  ES8F-OMAAAAJ:u-x6o8ySG0sC:
+    citations: 98
+    title: 'CAPturAR: An augmented reality tool for authoring human-involved context-aware applications'
+    year: '2020'
+  ES8F-OMAAAAJ:u5HHmVD_uO8C:
+    citations: 118
+    title: 'Gesturar: An authoring system for creating freehand interactive augmented reality applications'
+    year: '2021'
+  ES8F-OMAAAAJ:ufrVoPGSRksC:
+    citations: 31
+    title: 'GesPrompt: Leveraging Co-Speech Gestures to Augment LLM-Based Interaction in Virtual Reality'
+    year: '2025'
