@@ -4,11 +4,62 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/comments-test-override.yml"
 tmp_site="${tmp_dir}/site"
+created_posts=()
+created_posts_dir=false
 
 cleanup() {
+  if [ "${#created_posts[@]}" -gt 0 ]; then
+    for post in "${created_posts[@]}"; do
+      rm -f "${post}"
+    done
+  fi
+  if [ "${created_posts_dir}" = true ]; then
+    rmdir "_posts" 2>/dev/null || true
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+ensure_post() {
+  local path="$1"
+  if [ -f "${path}" ]; then
+    return
+  fi
+  if [ ! -d "_posts" ]; then
+    created_posts_dir=true
+  fi
+  mkdir -p "_posts"
+  cat >"${path}"
+  created_posts+=("${path}")
+}
+
+ensure_post "_posts/2015-01-01-disqus-comments.md" <<'MARKDOWN'
+---
+layout: post
+title: disqus comments
+date: 2015-01-01 00:00:00
+description: Integration fixture for Disqus comments.
+disqus_comments: true
+related_posts: false
+---
+
+This temporary fixture is created by `test/integration_comments.sh` when the
+starter sample posts are not present.
+MARKDOWN
+
+ensure_post "_posts/2022-01-01-giscus-comments.md" <<'MARKDOWN'
+---
+layout: post
+title: giscus comments
+date: 2022-01-01 00:00:00
+description: Integration fixture for Giscus comments.
+giscus_comments: true
+related_posts: false
+---
+
+This temporary fixture is created by `test/integration_comments.sh` when the
+starter sample posts are not present.
+MARKDOWN
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
