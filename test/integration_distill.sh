@@ -4,11 +4,56 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+created_posts=()
+created_posts_dir=false
 
 cleanup() {
+  if [ "${#created_posts[@]}" -gt 0 ]; then
+    for post in "${created_posts[@]}"; do
+      rm -f "${post}"
+    done
+  fi
+  if [ "${created_posts_dir}" = true ]; then
+    rmdir "_posts" 2>/dev/null || true
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
+
+ensure_post() {
+  local path="$1"
+  if [ -f "${path}" ]; then
+    return
+  fi
+  if [ ! -d "_posts" ]; then
+    created_posts_dir=true
+  fi
+  mkdir -p "_posts"
+  cat >"${path}"
+  created_posts+=("${path}")
+}
+
+ensure_post "_posts/2021-01-01-distill.md" <<'MARKDOWN'
+---
+layout: distill
+title: distill
+date: 2021-01-01 00:00:00
+description: Integration fixture for Distill rendering.
+authors:
+  - name: al-folio
+    affiliations:
+      name: al-folio
+bibliography: 2018-12-22-distill.bib
+giscus_comments: true
+related_posts: false
+mermaid:
+  enabled: true
+tikzjax: true
+---
+
+This temporary fixture is created by `test/integration_distill.sh` when the
+starter sample posts are not present.
+MARKDOWN
 
 cat >"${tmp_override}" <<'YAML'
 giscus:
