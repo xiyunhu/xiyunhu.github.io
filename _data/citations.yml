@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-15'
 papers:
   ES8F-OMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: 'ARnnotate: An augmented reality interface for collecting custom dataset of 3D hand-object interaction pose estimation'
     year: '2022'
   ES8F-OMAAAAJ:9yKSN-GCB0IC:
-    citations: 102
+    citations: 101
     title: 'Scalar: Authoring semantically adaptive augmented reality experiences in virtual reality'
     year: '2022'
   ES8F-OMAAAAJ:IjCSPb-OGe4C:
-    citations: 72
+    citations: 73
     title: 'ClassMeta: Designing Interactive Virtual Classmate to Promote VR Classroom Participation'
     year: '2024'
   ES8F-OMAAAAJ:LkGwnXOMwfcC:
@@ -70,6 +70,6 @@ papers:
     title: 'Gesturar: An authoring system for creating freehand interactive augmented reality applications'
     year: '2021'
   ES8F-OMAAAAJ:ufrVoPGSRksC:
-    citations: 31
+    citations: 33
     title: 'GesPrompt: Leveraging Co-Speech Gestures to Augment LLM-Based Interaction in Virtual Reality'
     year: '2025'
