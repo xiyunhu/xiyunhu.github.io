@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-05'
 papers:
   ES8F-OMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: 'JustShape: Exploring Co-Speech Gestures for Multimodal LLM-Powered 3D Parametric Modeling'
     year: '2026'
   ES8F-OMAAAAJ:W7OEmFMy1HYC:
-    citations: 27
+    citations: 28
     title: 'avaTTAR: Table Tennis Stroke Training with Embodied and Detached Visualization in Augmented Reality'
     year: '2024'
   ES8F-OMAAAAJ:Y0pCki6q_DkC:
