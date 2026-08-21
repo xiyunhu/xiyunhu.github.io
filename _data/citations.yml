@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-21'
 papers:
   ES8F-OMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: 'ARnnotate: An augmented reality interface for collecting custom dataset of 3D hand-object interaction pose estimation'
     year: '2022'
   ES8F-OMAAAAJ:9yKSN-GCB0IC:
-    citations: 105
+    citations: 106
     title: 'Scalar: Authoring semantically adaptive augmented reality experiences in virtual reality'
     year: '2022'
   ES8F-OMAAAAJ:IjCSPb-OGe4C:
-    citations: 77
+    citations: 82
     title: 'ClassMeta: Designing Interactive Virtual Classmate to Promote VR Classroom Participation'
     year: '2024'
   ES8F-OMAAAAJ:LkGwnXOMwfcC:
@@ -26,7 +26,7 @@ papers:
     title: 'AmIWrite: Exploring Scalable One-on-One Handwriting-Based Tutoring for Mathematical Problem-Solving with an LLM-Powered AI Tutor'
     year: '2026'
   ES8F-OMAAAAJ:UebtZRa9Y70C:
-    citations: 2
+    citations: 4
     title: 'JustShape: Exploring Co-Speech Gestures for Multimodal LLM-Powered 3D Parametric Modeling'
     year: '2026'
   ES8F-OMAAAAJ:W7OEmFMy1HYC:
@@ -38,11 +38,11 @@ papers:
     title: Authoring edge-based opportunistic tangible user interfaces in augmented reality
     year: '2024'
   ES8F-OMAAAAJ:YsMSGLbcyi4C:
-    citations: 9
+    citations: 10
     title: 'AdapTUI: Adaptation of Geometric-Feature-Based Tangible User Interfaces in Augmented Reality'
     year: '2024'
   ES8F-OMAAAAJ:_FxGoFyzp5QC:
-    citations: 27
+    citations: 30
     title: 'agentAR: Creating Augmented Reality Applications with Tool-Augmented LLM-based Autonomous Agents'
     year: '2025'
   ES8F-OMAAAAJ:eQOLeE2rZwMC:
@@ -62,14 +62,14 @@ papers:
     title: 'AgentCoach: LLM-Based Adaptive Coaching Feedback for Motor Skill Learning'
     year: '2026'
   ES8F-OMAAAAJ:u-x6o8ySG0sC:
-    citations: 99
+    citations: 101
     title: 'CAPturAR: An augmented reality tool for authoring human-involved context-aware applications'
     year: '2020'
   ES8F-OMAAAAJ:u5HHmVD_uO8C:
-    citations: 118
+    citations: 119
     title: 'Gesturar: An authoring system for creating freehand interactive augmented reality applications'
     year: '2021'
   ES8F-OMAAAAJ:ufrVoPGSRksC:
-    citations: 37
+    citations: 41
     title: 'GesPrompt: Leveraging Co-Speech Gestures to Augment LLM-Based Interaction in Virtual Reality'
     year: '2025'
