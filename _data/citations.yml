@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-09-02'
 papers:
   ES8F-OMAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: 'ARnnotate: An augmented reality interface for collecting custom dataset of 3D hand-object interaction pose estimation'
     year: '2022'
   ES8F-OMAAAAJ:9yKSN-GCB0IC:
-    citations: 106
+    citations: 108
     title: 'Scalar: Authoring semantically adaptive augmented reality experiences in virtual reality'
     year: '2022'
   ES8F-OMAAAAJ:IjCSPb-OGe4C:
-    citations: 82
+    citations: 86
     title: 'ClassMeta: Designing Interactive Virtual Classmate to Promote VR Classroom Participation'
     year: '2024'
   ES8F-OMAAAAJ:LkGwnXOMwfcC:
@@ -42,7 +42,7 @@ papers:
     title: 'AdapTUI: Adaptation of Geometric-Feature-Based Tangible User Interfaces in Augmented Reality'
     year: '2024'
   ES8F-OMAAAAJ:_FxGoFyzp5QC:
-    citations: 30
+    citations: 33
     title: 'agentAR: Creating Augmented Reality Applications with Tool-Augmented LLM-based Autonomous Agents'
     year: '2025'
   ES8F-OMAAAAJ:eQOLeE2rZwMC:
@@ -54,7 +54,7 @@ papers:
     title: 'ARify: Leveraging Narrated Instructional Videos to Create Augmented Reality Tutorials for Procedural Tasks'
     year: '2026'
   ES8F-OMAAAAJ:qjMakFHDy7sC:
-    citations: 47
+    citations: 48
     title: 'Ubi Edge: Authoring Edge-Based Opportunistic Tangible User Interfaces in Augmented Reality'
     year: '2023'
   ES8F-OMAAAAJ:roLk4NBRz8UC:
